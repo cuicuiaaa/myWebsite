@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+}
+
+h1,
+h2,
+.card-text {
+    font-family: 'Anton';
+}
+
+.nav-link {
+    color: gray;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+footer {
+    background-color: lightgray;
+    width: 100%;
+    padding: 3px;
+    color: darkgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .row {
+        margin: 0;
+    }
+
+    .col-md-6 {
+        margin-top: 20px;
+    }
+}

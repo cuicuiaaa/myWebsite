@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+h1,
+h2 {
+    font-family: 'Anton';
+}
+
+.nav-link {
+    color: gray;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+img {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: lightgray;
+    width: 100%;
+    padding: 3px;
+    color: darkgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  }
