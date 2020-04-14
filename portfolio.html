@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="stylePortfolio.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,60 +34,63 @@
             </div>
         </nav>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Portfolio</h2>
-                </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Portfolio</h2>
             </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://www.cathaypacific.com/content/dam/destinations/chengdu/cityguide-gallery/chengdu-jinriver-920x500.jpg" class="card-img-top" alt="chengdu">
-                        <div class="card-body">
-                          <p class="card-text">Chengdu</p>
-                        </div>
-                    </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card moody-drinks" style="width: 100%;">
+                <img src="moody-drinks-screenshots/desktop-landing.jpg" class="card-img-top" alt="moody-drinks">
+                <div class="card-body">
+                  <p class="card-text">Moody Drinks</p>
                 </div>
-                <div class="col-md-6">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://i0.wp.com/travelblog.expedia.co.th/wp-content/uploads/2018/10/cover-Shanghai.jpg?fit=1200%2C550&ssl=1" class="card-img-top" alt="shanghai">
-                        <div class="card-body">
-                          <p class="card-text">Shanghai</p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://www.telegraph.co.uk/content/dam/Travel/Destinations/Oceania/Australia/Sydney/sydney-guide-lead-sunset.jpg" class="card-img-top" alt="sydney">
-                        <div class="card-body">
-                          <p class="card-text">Sydney</p>
-                        </div>
-                    </div>
+            <div class="col-md-6">
+              <div class="card work-day-scheduler" style="width: 100%;">
+                <img src="work-day-scheduler-screenshots/2.png" class="card-img-top" alt="work-day-scheduler">
+                <div class="card-body">
+                  <p class="card-text">Work Day Scheduler</p>
                 </div>
-                <div class="col-md-6">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://s25910.pcdn.co/wp-content/uploads/2019/04/3-Days-in-Melbourne-Itinerary.jpg" class="card-img-top" alt="melbourne">
-                        <div class="card-body">
-                          <p class="card-text">Melbourne</p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://d18gmz9e98r8v5.cloudfront.net/ptr/20190131072926_180934072_10001_9.jpg" class="card-img-top" alt="kyoto">
-                        <div class="card-body">
-                          <p class="card-text">Kyoto</p>
-                        </div>
-                    </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card coding-quiz-challenge" style="width: 100%;">
+                <img src="coding-quiz-challenge-screenshots/1.png" class="card-img-top" alt="coding-quiz-challenge">
+                <div class="card-body">
+                  <p class="card-text">Coding Quiz Challenge</p>
                 </div>
+              </div>
             </div>
+              
+          </div>
         </div>
         <footer>Made by Clare</footer>
+
+        <script type="text/javascript">
+        $(".moody-drinks").on("click", function() {
+        window.location.href = "http://www.google.com";
+        });
+
+        $(".work-day-scheduler").on("click", function() {
+        window.location.href = "http://www.google.com";
+        });
+
+        $(".coding-quiz-challenge").on("click", function() {
+        window.location.href = "http://www.google.com";
+        });
+        </script>
+        
+      
+        
+        
+        
+        
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

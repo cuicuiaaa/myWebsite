@@ -22,6 +22,12 @@ h2,
     margin-top: 20px;
 }
 
+.moody-drinks,
+.work-day-scheduler,
+.coding-quiz-challenge:hover {
+    cursor: pointer;
+}
+
 .card-text {
     text-align: center;
 }
