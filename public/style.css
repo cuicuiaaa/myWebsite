@@ -29,6 +29,10 @@ h2 {
     margin-right: 50px;
 }
 
+span {
+    font-weight: bolder;
+}
+
 img {
     width: 100%;
     margin-right: 20px;
