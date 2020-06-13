@@ -13,7 +13,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <h1>Clare Liu</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="https://cuicuiaaa.github.io/myWebsite/">About Me</a>
+                  <a class="nav-link" href="index.html">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://cuicuiaaa.github.io/myWebsite/portfolio">Portfolio</a>
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://cuicuiaaa.github.io/myWebsite/contact">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -42,28 +42,56 @@
           <hr>
           <div class="row">
             <div class="col-md-6">
+              <div class="card whatschat" style="width: 100%;">
+                <img src="asset/WhatsChat.gif" class="card-img-top" alt="whatschat">
+                <div class="card-body">
+                  <p class="card-text">WhatsChat</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
               <div class="card moody-drinks" style="width: 100%;">
-                <img src="moody-drinks-screenshots/desktop-landing.jpg" class="card-img-top" alt="moody-drinks">
+                <img src="asset/moody-drinks-screenshots/desktop-landing.jpg" class="card-img-top" alt="moody-drinks">
                 <div class="card-body">
                   <p class="card-text">Moody Drinks</p>
                 </div>
               </div>
             </div>
+            
+          </div>
+          <div class="row">
             <div class="col-md-6">
-              <div class="card work-day-scheduler" style="width: 100%;">
-                <img src="work-day-scheduler-screenshots/2.png" class="card-img-top" alt="work-day-scheduler">
+              <div class="card employee-tracker" style="width: 100%;">
+                <img src="asset/employee-tracker.gif" class="card-img-top" alt="employee-tracker">
                 <div class="card-body">
-                  <p class="card-text">Work Day Scheduler</p>
+                  <p class="card-text">Employee Tracker</p>
                 </div>
               </div>
             </div>
+            <div class="col-md-6">
+              <div class="card team-page-generator" style="width: 100%;">
+                <img src="asset/team-page-generator.gif" class="card-img-top" alt="team-page-generator">
+                <div class="card-body">
+                  <p class="card-text">Team Page Generator</p>
+                </div>
+              </div>
+            </div>
+              
           </div>
           <div class="row">
             <div class="col-md-6">
               <div class="card coding-quiz-challenge" style="width: 100%;">
-                <img src="coding-quiz-challenge-screenshots/1.png" class="card-img-top" alt="coding-quiz-challenge">
+                <img src="asset/coding-quiz-challenge-screenshots/1.png" class="card-img-top" alt="coding-quiz-challenge">
                 <div class="card-body">
                   <p class="card-text">Coding Quiz Challenge</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card work-day-scheduler" style="width: 100%;">
+                <img src="asset/work-day-scheduler-screenshots/2.png" class="card-img-top" alt="work-day-scheduler">
+                <div class="card-body">
+                  <p class="card-text">Work Day Scheduler</p>
                 </div>
               </div>
             </div>
@@ -73,16 +101,28 @@
         <footer>Made by Clare</footer>
 
         <script type="text/javascript">
+        $(".whatschat").on("click", function() {
+        window.location.href = "whatschat.html";
+        });
+
         $(".moody-drinks").on("click", function() {
-        window.location.href = "https://cuicuiaaa.github.io/myWebsite/moodyDrinks";
+        window.location.href = "moodyDrinks.html";
         });
 
         $(".work-day-scheduler").on("click", function() {
-        window.location.href = "https://cuicuiaaa.github.io/myWebsite/workDayScheduler";
+        window.location.href = "workDayScheduler.html";
         });
 
         $(".coding-quiz-challenge").on("click", function() {
-        window.location.href = "https://cuicuiaaa.github.io/myWebsite/codingQuizChallenge";
+        window.location.href = "codingQuizChallenge.html";
+        });
+
+        $(".employee-tracker").on("click", function() {
+        window.location.href = "employeeTracker.html";
+        });
+
+        $(".team-page-generator").on("click", function() {
+        window.location.href = "teamPageGenerator.html";
         });
         </script>
         
